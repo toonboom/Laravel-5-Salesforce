@@ -1,29 +1,29 @@
 {
-  "name": "davispeixoto/laravel5-salesforce",
-  "description": "Laravel 5 Salesforce Force.com PHP Toolkit port",
+  "name": "toonboom/laravel-salesforce",
+  "description": "Laravel Salesforce Force.com PHP Toolkit port",
   "keywords": [
     "laravel",
     "salesforce",
     "crm",
     "force.com toolkit",
-    "laravel 5"
+    "laravel 6"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "Davis Peixoto",
-      "email": "davis.peixoto@gmail.com"
+      "name": "Jerome Harfouche",
+      "email": "jharfouche@toonboom.com"
     }
   ],
   "require": {
     "php": ">=5.4.0",
     "davispeixoto/force-dot-com-toolkit-for-php": "1.0.*",
-    "illuminate/support": "~5.0",
-    "vlucas/phpdotenv": "~2.2"
+    "illuminate/support": ">=5.0",
+    "vlucas/phpdotenv": "^3.6"
   },
   "require-dev": {
-    "laravel/framework": "~5.0",
-    "phpunit/phpunit": "~4.0"
+    "laravel/framework": "^6.0",
+    "phpunit/phpunit": "^7.5"
   },
   "autoload": {
     "psr-4": {
