@@ -16,13 +16,13 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0",
+    "php": ">=5.4.0|^7.4|^8.1",
     "davispeixoto/force-dot-com-toolkit-for-php": "1.0.*",
     "illuminate/support": ">=5.0",
     "vlucas/phpdotenv": "^4"
   },
   "require-dev": {
-    "laravel/framework": "^6.0",
+    "laravel/framework": ">=6.0",
     "phpunit/phpunit": "^7.5"
   },
   "autoload": {
