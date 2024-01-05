@@ -22,8 +22,8 @@
     "vlucas/phpdotenv": "^5.2"
   },
   "require-dev": {
-    "laravel/framework": ">=6.0",
-    "phpunit/phpunit": "^7.5"
+    "laravel/framework": "^8.x-dev",
+    "phpunit/phpunit": "^7.5|^9.6"
   },
   "autoload": {
     "psr-4": {
